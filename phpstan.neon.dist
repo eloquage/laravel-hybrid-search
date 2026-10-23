@@ -7,11 +7,10 @@ parameters:
         - src
         - tests
     excludePaths:
-        - tests/ArchTest.php
+        analyse:
+            - tests/ArchTest.php
     tmpDir: build/phpstan
     reportUnmatchedIgnoredErrors: false
-    excludePaths:
-        analyse:
             - tests/Pest.php
     peststan:
         testCaseClass: IllumaLaw\HybridSearch\Tests\TestCase
