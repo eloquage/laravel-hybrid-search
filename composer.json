@@ -6,7 +6,7 @@
         "laravel",
         "laravel-hybrid-search"
     ],
-    "homepage": "https://github.com/illuma-law/laravel-hybrid-search",
+    "homepage": "https://github.com/eloquage/laravel-hybrid-search",
     "license": "MIT",
     "authors": [
         {
