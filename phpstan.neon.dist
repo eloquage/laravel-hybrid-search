@@ -9,8 +9,8 @@ parameters:
     excludePaths:
         analyse:
             - tests/ArchTest.php
+            - tests/Pest.php
     tmpDir: build/phpstan
     reportUnmatchedIgnoredErrors: false
-            - tests/Pest.php
     peststan:
         testCaseClass: IllumaLaw\HybridSearch\Tests\TestCase
