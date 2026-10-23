@@ -1,6 +1,5 @@
 <?php
 
-use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Config;
@@ -19,14 +18,7 @@ it('calls whereHybridFullText on eloquent builder', function () {
         $table->string('title');
     });
 
-    /** @var Builder<TestModel> $query */
-    $query = TestModel::whereHybridFullText(['title'], 'search query');
+    $query = TestModel::query()->whereHybridFullText(['title'], 'search query');
 
-    expect($query)->not->toBeNull();
-    /** @var mixed $baseQuery */
-    $baseQuery = $query->getQuery();
-    if (method_exists($baseQuery, 'toSql')) {
-        $sql = strtolower((string) $baseQuery->toSql());
-        expect($sql)->toContain('test_table_eloquent_fts match ?');
-    }
+    expect(strtolower($query->toSql()))->toContain('test_table_eloquent_fts match ?');
 });
