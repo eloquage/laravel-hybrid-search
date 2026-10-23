@@ -10,6 +10,9 @@ parameters:
         analyse:
             - tests/ArchTest.php
             - tests/Pest.php
+            # Larastan currently recurses until stack exhaustion on this Eloquent macro fixture.
+            # The test remains covered by the Pest matrix.
+            - tests/EloquentMacroTest.php
     tmpDir: build/phpstan
     reportUnmatchedIgnoredErrors: false
     peststan:
