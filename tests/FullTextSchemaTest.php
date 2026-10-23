@@ -49,5 +49,4 @@ it('can drop native fulltext index', function () {
         });
 
     FullTextSchema::drop('test_table', ['title']);
-    expect(true)->toBeTrue();
 });
