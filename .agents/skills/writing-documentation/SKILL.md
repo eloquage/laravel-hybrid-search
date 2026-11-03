@@ -7,7 +7,7 @@ metadata:
 
 # Writing and documentation
 
-Write documentation for `illuma-law/laravel-hybrid-search` (Portable Full-Text Search (FTS) schema macros and the Reciprocal Rank Fusion (RRF) algorithm.) that lets the intended reader complete a concrete task.
+Write documentation for `eloquage/laravel-hybrid-search` (Portable Full-Text Search (FTS) schema macros and the Reciprocal Rank Fusion (RRF) algorithm.) that lets the intended reader complete a concrete task.
 
 ## Source and structure
 

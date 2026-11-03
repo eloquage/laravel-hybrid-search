@@ -7,7 +7,7 @@ metadata:
 
 # Laravel package development
 
-Use this skill when changing this Composer package: `illuma-law/laravel-hybrid-search` — Portable Full-Text Search (FTS) schema macros and the Reciprocal Rank Fusion (RRF) algorithm.
+Use this skill when changing this Composer package: `eloquage/laravel-hybrid-search` — Portable Full-Text Search (FTS) schema macros and the Reciprocal Rank Fusion (RRF) algorithm.
 
 ## Package context
 

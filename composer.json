@@ -1,5 +1,5 @@
 {
-    "name": "illuma-law/laravel-hybrid-search",
+    "name": "eloquage/laravel-hybrid-search",
     "description": "Portable Full-Text Search (FTS) schema macros and the Reciprocal Rank Fusion (RRF) algorithm.",
     "keywords": [
         "illuma-law",

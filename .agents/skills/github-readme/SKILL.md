@@ -7,7 +7,7 @@ metadata:
 
 # GitHub README
 
-For `illuma-law/laravel-hybrid-search` (Portable Full-Text Search (FTS) schema macros and the Reciprocal Rank Fusion (RRF) algorithm.), make the README useful to a developer deciding whether to install the package and then trying it in a real application.
+For `eloquage/laravel-hybrid-search` (Portable Full-Text Search (FTS) schema macros and the Reciprocal Rank Fusion (RRF) algorithm.), make the README useful to a developer deciding whether to install the package and then trying it in a real application.
 
 ## Ground every claim
 

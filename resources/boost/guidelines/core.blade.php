@@ -1,4 +1,4 @@
-# illuma-law/laravel-hybrid-search
+# eloquage/laravel-hybrid-search
 
 Portable Full-Text Search (FTS) macros and Reciprocal Rank Fusion (RRF) for Laravel. Supports PostgreSQL, MySQL, SQL Server, and SQLite (FTS5).
 
