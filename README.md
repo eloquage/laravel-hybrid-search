@@ -7,7 +7,7 @@ Use the same query API across PostgreSQL, MySQL, SQL Server, and SQLite, then
 combine ranked results from separate search systems.
 
 [![Tests](https://github.com/eloquage/laravel-hybrid-search/actions/workflows/run-tests.yml/badge.svg)](https://github.com/eloquage/laravel-hybrid-search/actions/workflows/run-tests.yml)
-[![Latest Version](https://img.shields.io/packagist/v/illuma-law/laravel-hybrid-search)](https://packagist.org/packages/illuma-law/laravel-hybrid-search)
+[![Latest Version](https://img.shields.io/packagist/v/eloquage/laravel-hybrid-search)](https://packagist.org/packages/eloquage/laravel-hybrid-search)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Requires PHP 8.3+ and Laravel 11, 12, or 13.
@@ -15,7 +15,7 @@ Requires PHP 8.3+ and Laravel 11, 12, or 13.
 ## Install
 
 ```bash
-composer require illuma-law/laravel-hybrid-search
+composer require eloquage/laravel-hybrid-search
 ```
 
 ## Create and query a full-text index
